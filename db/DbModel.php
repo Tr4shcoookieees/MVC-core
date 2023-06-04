@@ -11,7 +11,7 @@ use app\models\User;
  *
  * @package tr4shcoookieees\MVC
  */
-abstract class UserModel extends Model
+abstract class DbModel extends Model
 {
     abstract public function tableName(): string;
 
@@ -19,7 +19,7 @@ abstract class UserModel extends Model
 
     abstract public function primaryKey(): string;
 
-    public function save()
+    public function save(): bool
     {
         $tableName = $this->tableName();
         $attributes = $this->attributes();
