@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-- [Description](#description)
+- [Описание](#description)
 - [Screenshots](#screenshots)
 - [Built With](#built-with)
 - [Getting Started](#getting-started)
@@ -12,44 +12,25 @@
   - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
-- [Contacts](#contacts)
 
 ## Description
 
 Ядро MVC фреймворка, написанное на чистом PHP с нуля.
 
-## Screenshots
-
-<img src="" />## Built With
-
-<a href="https://www.php.net/docs.php"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" height="40px" width="40px" /></a>
-
-## Getting Started
-
-What do I need to do or know before attempting to use your project
-
 ### Prerequisites
 
-What do I need to install before I can run your project
+Их нет. Просто скачай в корень проекта и ковыряйся на здоровье
 
 ### Installation
 
-How do I get your project running?
+Если хочется покопаться в исходнике: git clone ...
+Если просто лень писать: composer require tr4shcoookieees/mvc-core
 
 ## Usage
 
-How do I use your project
-
+Крайне не советую использовать такое в рабочих проектах. Безопасность - это не про данное ядро.
+Да и в целом я писал это для себя по туториалу от TheCodeholic, чтобы получше разобраться в паттерне mvc.
 
 ## License
 
-<a href="https://choosealicense.com/licenses/unlicense/"><img src="https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/unlicense.svg" height=40 />The Unlicense</a>
-
-## Acknowledgements
-
-Who helped you make this project a reality? Friends? Family? Contributors? Instructors?
-
-## Contacts
-
-<a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>  <a href="mailto:"><img src=https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/email_me_button_icon_151852.svg /></a>
+Лицензия?
