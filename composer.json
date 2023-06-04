@@ -1,0 +1,11 @@
+{
+    "name": "tr4shcoookieees/mvc-core",
+    "description": "MVC core folder [PHP]",
+    "authors": [
+        {
+            "name": "Tr4shcoookieees",
+            "email": "tr4shcoookieees@gmail.com"
+        }
+    ],
+    "require": {}
+}
