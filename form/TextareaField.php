@@ -1,11 +1,11 @@
 <?php
 
-namespace app\core\form;
+namespace tr4shcoookieees\MVC\form;
 
 /**
  * Class TextareaField
  *
- * @package app\core\form
+ * @package tr4shcoookieees\MVC\form
  */
 class TextareaField extends BaseField
 {

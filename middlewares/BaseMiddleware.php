@@ -1,11 +1,11 @@
 <?php
 
-namespace app\core\middlewares;
+namespace tr4shcoookieees\MVC\middlewares;
 
 /**
  * Class BaseMiddleware
  *
- * @package app\core\middlewares
+ * @package tr4shcoookieees\MVC\middlewares
  */
 abstract class BaseMiddleware
 {

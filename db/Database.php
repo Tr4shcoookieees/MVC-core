@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core\db;
+namespace tr4shcoookieees\MVC\db;
 
-use app\core\Application;
+use tr4shcoookieees\MVC\Application;
 use PDO;
 
 /**
  * Class Database
  *
- * @package app\core
+ * @package tr4shcoookieees\MVC
  */
 class Database
 {

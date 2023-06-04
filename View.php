@@ -1,11 +1,11 @@
 <?php
 
-namespace app\core;
+namespace tr4shcoookieees\MVC;
 
 /**
  * Class View
  *
- * @package app\core
+ * @package tr4shcoookieees\MVC
  */
 class View
 {

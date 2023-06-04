@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core\form;
+namespace tr4shcoookieees\MVC\form;
 
-use app\core\Model;
+use tr4shcoookieees\MVC\Model;
 
 /**
  * Class BaseField
  *
- * @package app\core\form
+ * @package tr4shcoookieees\MVC\form
  */
 abstract class BaseField
 {

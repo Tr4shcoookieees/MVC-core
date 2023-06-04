@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core;
+namespace tr4shcoookieees\MVC;
 
-use app\core\middlewares\BaseMiddleware;
+use tr4shcoookieees\MVC\middlewares\BaseMiddleware;
 
 /**
  *  Class Controller
  *
- * @package app\core
+ * @package tr4shcoookieees\MVC
  */
 class Controller
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace app\core\exception;
+namespace tr4shcoookieees\MVC\exception;
 
 /**
  * Class ForbiddenException
  *
- * @package app\core\exception
+ * @package tr4shcoookieees\MVC\exception
  */
 class ForbiddenException extends \Exception
 {

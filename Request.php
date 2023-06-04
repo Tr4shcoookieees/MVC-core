@@ -1,11 +1,11 @@
 <?php
 
-namespace app\core;
+namespace tr4shcoookieees\MVC;
 
 /**
  *  Class Request
  *
- * @package app\core
+ * @package tr4shcoookieees\MVC
  */
 class Request
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core;
+namespace tr4shcoookieees\MVC;
 
-use app\core\db\UserModel;
+use tr4shcoookieees\MVC\db\UserModel;
 
 /**
  * Class UserModel
  *
- * @package app\core
+ * @package tr4shcoookieees\MVC
  */
 abstract class UserModel extends UserModel
 {

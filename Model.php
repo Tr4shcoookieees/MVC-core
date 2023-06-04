@@ -1,11 +1,11 @@
 <?php
 
-namespace app\core;
+namespace tr4shcoookieees\MVC;
 
 /**
  * Class Model
  *
- * @package app\core
+ * @package tr4shcoookieees\MVC
  */
 abstract class Model
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core;
+namespace tr4shcoookieees\MVC;
 
-use app\core\exception\NotFoundException;
+use tr4shcoookieees\MVC\exception\NotFoundException;
 
 /**
  *  Class Router
  *
- * @package app\core
+ * @package tr4shcoookieees\MVC
  */
 class Router
 {

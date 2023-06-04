@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core\middlewares;
+namespace tr4shcoookieees\MVC\middlewares;
 
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use tr4shcoookieees\MVC\Application;
+use tr4shcoookieees\MVC\exception\ForbiddenException;
 
 /**
  * Class AuthMiddleware
  *
- * @package app\core\middlewares
+ * @package tr4shcoookieees\MVC\middlewares
  */
 class AuthMiddleware extends BaseMiddleware
 {

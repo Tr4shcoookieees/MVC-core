@@ -1,15 +1,15 @@
 <?php
 
-namespace app\core;
+namespace tr4shcoookieees\MVC;
 
 
-use app\core\db\Database;
-use app\core\db\UserModel;
+use tr4shcoookieees\MVC\db\Database;
+use tr4shcoookieees\MVC\db\UserModel;
 
 /**
  *  Class Application
  *
- * @package app\core
+ * @package tr4shcoookieees\MVC
  */
 class Application
 {

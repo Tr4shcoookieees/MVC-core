@@ -7,5 +7,10 @@
             "email": "tr4shcoookieees@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "tr4shcoookieees\\MVC": "."
+        }
+    }
 }

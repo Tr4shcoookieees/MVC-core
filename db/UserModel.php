@@ -1,15 +1,15 @@
 <?php
 
-namespace app\core\db;
+namespace tr4shcoookieees\MVC\db;
 
-use app\core\Application;
-use app\core\Model;
+use tr4shcoookieees\MVC\Application;
+use tr4shcoookieees\MVC\Model;
 use app\models\User;
 
 /**
  * Class DbModel
  *
- * @package app\core
+ * @package tr4shcoookieees\MVC
  */
 abstract class UserModel extends Model
 {
