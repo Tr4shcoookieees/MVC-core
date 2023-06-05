@@ -13,8 +13,12 @@ use tr4shcoookieees\MVC\tr4shcoookieees\MVCDbModel;
  */
 class Application
 {
-    public static string $ROOT_DIR;
+    const EVENT_BEFORE_REQUEST = 'beforeRequest';
+    const EVENT_AFTER_REQUEST = 'afterRequest';
 
+    protected array $eventListeners;
+
+    public static string $ROOT_DIR;
     public string $layout = 'main';
     public string $userClass;
     public Router $router;
@@ -56,6 +60,7 @@ class Application
 
     public function run()
     {
+        $this->triggerEvent(self::EVENT_BEFORE_REQUEST);
         try {
             echo $this->router->resolve();
         } catch (\Exception $e) {
@@ -63,6 +68,19 @@ class Application
             echo $this->view->renderView('_error', [
                 'exception' => $e
             ]);
+        }
+    }
+
+    public function on($eventName, $callback)
+    {
+        $this->eventListeners[$eventName][] = $callback;
+    }
+
+    public function triggerEvent($eventNmae)
+    {
+        $callbacks = $this->eventListeners[$eventNmae] ?? [];
+        foreach ($callbacks as $callback) {
+            call_user_func($callback);
         }
     }
 
