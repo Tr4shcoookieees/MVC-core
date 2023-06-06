@@ -4,7 +4,7 @@ namespace tr4shcoookieees\MVC;
 
 
 use tr4shcoookieees\MVC\db\Database;
-use tr4shcoookieees\MVC\tr4shcoookieees\MVCDbModel;
+use tr4shcoookieees\MVC\DbModel;
 
 /**
  *  Class Application
